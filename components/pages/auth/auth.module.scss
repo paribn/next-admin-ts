@@ -1,0 +1,18 @@
+.form {
+  margin-top: 32px;
+
+  & .forgot_btn {
+    color: var(--primary-color);
+    font-size: var(--font-size-small);
+    font-style: normal;
+    font-weight: var(--font-weight-semibold);
+    line-height: 1.2; /* 142.857% */
+    margin-top: var(--spacing-medium);
+  }
+
+  & .form_btn {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-medium);
+  }
+}

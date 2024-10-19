@@ -1,0 +1,18 @@
+.redirect {
+  color: #475467;
+  font-size: var(--font-size-small);
+  font-weight: 400;
+  line-height: var(--line-height-normal);
+  /* 142.857% */
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+
+  & span {
+    color: var(--primary-color);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-normal);
+    /* 142.857% */
+  }
+}
