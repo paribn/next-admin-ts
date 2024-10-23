@@ -16,3 +16,9 @@
     line-height: var(--line-height-normal);
   }
 }
+
+@media (max-width: 993px), (max-width: 480px) {
+  .btn .text {
+    font-size: var(--font-size-small);
+  }
+}

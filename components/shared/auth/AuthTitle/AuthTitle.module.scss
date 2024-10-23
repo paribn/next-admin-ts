@@ -24,3 +24,26 @@
     line-height: 1.5;
   }
 }
+
+@media (max-width: 993px) {
+  .desc {
+    & .title {
+      font-size: 26px;
+    }
+    & .subtitle {
+      font-size: var(--font-size-small);
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .desc {
+    & .title {
+      font-size: 24px;
+    }
+
+    & .subtitle {
+      font-size: var(--font-size-small);
+    }
+  }
+}
